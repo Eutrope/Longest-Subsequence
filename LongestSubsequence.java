@@ -19,8 +19,8 @@ public class LongestSubsequence {
         int i = 0;
         int j = 0;
 
-        if (str1.length() == 0 && str2.length() == 0) {
-            return "The two strings are empty";
+        if (str1.length() == 0 || str2.length() == 0) {
+            return "There is no subsequence.";
         }
 
         // compare the second string to the first string
